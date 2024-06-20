@@ -26,3 +26,57 @@ nav
         background-color: #ddd;
         transition: all 0.4s ease-in-out;
     }
+header
+    {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+section
+    {
+        padding: 20x;
+        border: 1px solid #ddd;
+        margin-bottom: 20px;
+    }
+#acerca-de-mi
+    {
+        text-align: justify;
+    }
+#habilidades ul
+    {
+        list-style: none;
+        padding: 0;
+    }
+#habilidades ul li
+    {
+        display: inline-block;
+        padding: 5px;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+#experiencia ul
+    {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+#experiencia ul li
+    {
+        margin-bottom: 10px;
+    }
+#proyectos ul
+    {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+#proyectos ul li a
+    {
+        text-decoration: none;
+        color: #333;
+    }
+#proyectos ul li a:hover
+    {
+        text-decoration: underline;
+    }   
