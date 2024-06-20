@@ -65,11 +65,19 @@ section
     {
         margin-bottom: 10px;
     }
+#experiencia ul li strong
+    {
+        front-weight: bold;
+    }
 #proyectos ul
     {
         list-style: none;
         padding: 0;
         margin: 0;
+    }
+#proyectos ul li
+    {
+        margin-bottom: 10px;
     }
 #proyectos ul li a
     {
@@ -80,3 +88,27 @@ section
     {
         text-decoration: underline;
     }   
+#contacto form
+    {
+        margin: 0 auto;
+        width:500px auto;
+    }
+#contacto form input,
+#contacto form textarea
+    {
+        width: 100%;
+        padding: 10%;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+    }
+#contacto form textarea
+    {
+        height: 100px;
+    }
+#contacto form input[type=submit ]
+    {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
