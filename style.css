@@ -1,0 +1,28 @@
+body{
+    font-family: sans-serif;
+    margin: 0%;
+    color: #3e363f;
+    padding-top: 60px;
+    }
+
+nav
+    {
+        position: fixed;
+        top: 0%;
+        left:0%;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+.menu-item
+    {
+        text-decoration: none;
+        color: #333;
+        padding: 10px;
+        display: inline-block;
+    }
+.menu-item:hover
+    {
+        background-color: #ddd;
+        transition: all 0.4s ease-in-out;
+    }
